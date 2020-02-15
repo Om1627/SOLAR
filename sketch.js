@@ -69,5 +69,9 @@ background(0);
  planet1.debug = true;
  planet2.debug = true;
 
+  if (World.frameCount % 50===0){
+  sun.width=sun.width+5;
+  sun.height=sun.height+5;
+}
   drawSprites();
 }
